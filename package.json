@@ -1,0 +1,30 @@
+{
+  "name": "jwt-validator",
+  "version": "0.1.0",
+  "description": "Generator and validator of a JWT token containing custom data",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Alessandro Sarzina <a.sarzina@palmabit.com>",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "jwt",
+    "token"
+  ],
+  "dependencies": {
+    "jsonwebtoken": "^7.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.9.1",
+    "faker": "^3.1.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
+  }
+}
