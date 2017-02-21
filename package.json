@@ -1,6 +1,6 @@
 {
   "name": "jwt-validator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generator and validator of a JWT token containing custom data",
   "license": "MIT",
   "main": "index.js",
